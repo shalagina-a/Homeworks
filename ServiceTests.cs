@@ -31,7 +31,7 @@ namespace HRLibrary.UnitTests_
         [Test]
         public void TextMessageGetInfoTest()
         {
-            var expected = "К оплате 25000";
+            var expected = "К оплате 2500";
             Assert.That(text_message.GetInfo(), Is.EqualTo(expected));
         }
 
